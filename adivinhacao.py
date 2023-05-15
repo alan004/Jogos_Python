@@ -9,11 +9,11 @@ def jogar():
 
     def seleciona_nivel():
         print("Selecione o nivel de dificuldade do jogo")
-        print("(1) Fácil (2) Médio (3) Difícil (0) Sair")
+        print("(1) Fácil (2) Médio (3) Difícil")
         global tentativas
         global nivel
         nivel = int(input("Nivel:"))
-        while (nivel != 1) or (nivel != 2) or (nivel != 3) or (nivel != 0):
+        while (nivel != 1) or (nivel != 2) or (nivel != 3):
             try:
                 if (nivel == 1):
                     tentativas = 10
@@ -21,11 +21,9 @@ def jogar():
                     tentativas = 6
                 elif (nivel == 3):
                     tentativas = 3
-                elif (nivel == 0):
-                    jogos.escolhe_jogo()
                 else:
                     print("Nível inválido. Digite novamente.")
-                    print("(1) Fácil (2) Médio (3) Difícil (0) Sair")
+                    print("(1) Fácil (2) Médio (3) Difícil")
                     nivel = int(input("Nivel:"))
             finally:
                 advinhar()

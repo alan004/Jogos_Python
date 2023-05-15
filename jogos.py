@@ -15,5 +15,7 @@ def escolhe_jogo():
     elif(jogo == 2):
         print("Jogando Forca")
         forca.jogar()
+    quit()
+
 if(__name__ == "__main__"):
     escolhe_jogo()
