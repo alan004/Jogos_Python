@@ -1,5 +1,6 @@
 import adivinhacao
 import forca
+import cobrinha
 
 def escolhe_jogo():
     boas_vindas()
@@ -11,7 +12,7 @@ def boas_vindas():
     print("*******************************")
     print("*******Escolha seu jogo********")
     print("*******************************")
-    print("(1) Adivinhacao (2) Forca (0) Sair")
+    print("(1) Adivinhacao (2) Forca (3) Cobrinha (0) Sair")
 
 
 def abrir_jogo(jogo):
@@ -21,6 +22,9 @@ def abrir_jogo(jogo):
     elif (jogo == 2):
         print("Jogando Forca")
         forca.jogar()
+    elif (jogo == 3):
+        print("Jogando o jogo da cobrinha")
+        cobrinha.jogar()
     elif (jogo == 0):
         quit()
     else:
