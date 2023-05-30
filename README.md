@@ -1,9 +1,9 @@
 # Jogos_Python
-Aqui coloco joguinhos criados em Python para rodarem no terminal :) Atualmente o projeto inclui três jogos: Forca, Adivinhação e Snake.
+Aqui coloco joguinhos criados em Python para rodarem no terminal :) Atualmente o projeto inclui três jogos: Forca, Adivinhação e Snake. Os dois primeiros foram criados como parte dos cursos de introdução ao Python da Alura. Já o segundo, me baseei no projeto do [filhoweuler](https://github.com/filhoweuler/Pygame-Snake/tree/master)
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Adopet**
+| :sparkles: Nome        | **Jogos em Python**
 | :label: Tecnologias | python
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 <!--![AdopetcAPA](https://user-images.githubusercontent.com/17684918/209195984-a3c4e20b-4f3a-4778-b5b4-3e17556a0480.png#vitrinedev)-->
