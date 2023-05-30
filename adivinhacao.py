@@ -19,7 +19,6 @@ def chute_usuario():
 
 def advinhar(pontos, tentativas):
     numero_secreto = random.randrange(1, 101)
-    print(numero_secreto)
     for rodada in range(1, tentativas + 1):
         print("Tentativa {} de {}".format(rodada, tentativas))
         chute = chute_usuario()
